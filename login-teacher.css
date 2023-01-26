@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+body{
+    background-color: #0066ffa6;
+    color: rgb(253, 253, 253);
+}
+
+.container{
+    padding: 0 2rem;
+}
+
+.box-title{
+    width: 100%;
+    height: fit-content;
+    padding: 1.5rem;
+}
+
+.title-login{
+    text-align: center;
+}
+
+.box-login{
+    background-color: #fff;
+    max-width: 100%;
+    margin: 1rem auto;
+    color: #9D9C9C;
+    width: 20rem;
+    height: 18rem;
+    border-radius: 1rem;
+    display: grid;
+    padding: 0.8rem 1rem;
+    line-height: 2rem;
+}
+ button{
+    border: 0;
+    color: #fff;
+ }
+
+.btn-s-t{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.btn-s-t button{
+    width: 50%;
+    padding: 0.5rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+} 
+
+.btn-student{
+    background-color: #C7C7C7;
+}
+
+.btn-teacher{
+    margin-right: 0.5rem;
+    background-color: #0066FF;
+}
+
+#name-family , #password{
+    width: 100%;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.5rem;
+}
+
+.btn-login{
+    width: 100%;
+    display: grid;
+}
+
+.btn-login button{
+    width: 2rem;
+    margin: auto;
+    cursor: pointer;
+    width: 38%;
+    padding: 0.5rem 0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    background-color: #64C585;
+    font-size: 1rem;
+}
+
+.box-login p{
+    text-align: center;
+}
+
